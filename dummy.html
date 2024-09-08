@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Details</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #151b2a; /* Dark blue background */
+            color: #fff; 
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* Style for the player details section */
+        .player-details {
+            background-color: #1f2b3a;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Style for player details labels */
+        .label {
+            font-weight: bold;
+        }
+
+        /* Style for player details values */
+        .value {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Player Details</h2>
+        <div class="player-details">
+            <h3>Player Health Record</h3>
+            <ul>
+                <li><span class="label">Heart Rate:</span> <span class="value">{{ <details></details>details.heart_rate }}</span></li>
+                <li><span class="label">Heart Rate Variability:</span> <span class="value">{{<details></details>details.heart_rate_variability }}</span></li>
+                <li><span class="label">Steps Taken:</span> <span class="value">{{ details.steps_taken }}</span></li>
+                <li><span class="label">Distance Covered:</span> <span class="value">{{ details.distance_covered }}</span></li>
+                <li><span class="label">Calories Burned:</span> <span class="value">{{ details.calories_burned }}</span></li>
+                <li><span class="label">Calories Consumed:</span> <span class="value">{{ details.calories_consumed }}</span></li>
+                <li><span class="label">Training Intensity:</span> <span class="value">{{ details..training_intensity }}</span></li>
+                <li><span class="label">Sleep Duration:</span> <span class="value">{{ details.sleep_duration }}</span></li>
+                <li><span class="label">Sleep Stages 1:</span> <span class="value">{{ details.sleep_stages_1 }}</span></li>
+                <li><span class="label">Sleep Stages 2:</span> <span class="value">{{ details.sleep_stages_2 }}</span></li>
+                <li><span class="label">Resting Heart Rate (RHR):</span> <span class="value">{{ details.resting_heart_rate }}</span></li>
+                <li><span class="label">Blood Oxygen Level (SpO2):</span> <span class="value">{{ details.blood_oxygen_level }}</span></li>
+                <li><span class="label">Estimated Fluid Intake:</span> <span class="value">{{ details.estimated_fluid_intake }}</span></li>
+                <li><span class="label">Estimated Sweat Loss:</span> <span class="value">{{ details.estimated_sweat_loss }}</span></li>
+                <li><span class="label">Cycling Power Output:</span> <span class="value">{{ details.cycling_power_output }}</span></li>
+                <li><span class="label">Running Speed:</span> <span class="value">{{ details.running_speed }}</span></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
