@@ -38,8 +38,8 @@ Due to the purpose of demonstration, currently the project can only be run local
 # Implementation
 1. Working prototype All the files are uploaded to the gitlab repository and below is the codebase for it
 2. code base ( screen shot of the repo)
+![image](https://github.com/user-attachments/assets/0ee9d2c6-d004-4a3b-bebf-08e25d0a2c62)
 
-   ![Screenshot 2024-04-04 154921.png](uploads/a014c87bca6a1bce549545e0528bd988/Screenshot_2024-04-04_154921.png)
 3. Deployment of CI/CD pipeline
 
 To construct a sophisticated and academically inclined Continuous Deployment (CD) pipeline for the development of a Management System for Football Players, a detailed, structured approach is essential. This system aims to not only store basic information about football players but also to provide specialized, research-based treatment recommendations for injuries and medical conditions. To achieve this, a multifaceted development strategy incorporating various tools and methodologies is employed.
